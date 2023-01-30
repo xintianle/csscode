@@ -1,0 +1,55 @@
+@charset 'UTF-8';
+/* 全局样式 */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+body,
+ul,
+p,
+h3,
+h4,
+h5,
+h6{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+    /* 上下居中 */
+}
+button{
+    cursor: pointer;
+}
+a{
+    -webkit-tap-highlight-color: rgba(0,0,0,1);
+    text-decoration: none;
+}
+
+em,i {
+    font-style: normal;
+}
+
+/* 用于清除浮动给浮动元素的父元素添加 "clearfix" */
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}

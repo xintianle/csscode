@@ -1,0 +1,17 @@
+/* 移动端适配 */
+/* 1、HTML标签添加字号1/10；2、写rem单位的尺寸 */
+@media (width=320px) {
+    html{
+        font-size: 32px;
+    }
+}
+@media (width=375px) {
+    html {
+        font-size: 37.5px;
+    }
+}
+@media (width=414px) {
+    html {
+        font-size: 41.4px;
+    }
+}
